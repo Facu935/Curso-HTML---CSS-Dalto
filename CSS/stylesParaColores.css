@@ -1,0 +1,43 @@
+.box1 {
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+   border: 10px solid black;
+
+   background-color: rgb(155,50,255,100); /*Depende la combinación, vamos a tener un color u otro. El cuarto color es el ALFA (opacidad)*/
+}
+
+.box2 {
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+   border: 10px solid black;
+
+   background-color: #00AE85; /*Dependiendo de cuanto aumentes cada sigla de 2 en la escala hexadecimal, ves un color u otro*/
+}
+
+#box2OtroColor {
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+   border: 10px solid black;
+
+   background-color: #b60; /*Se pueden usar 3 letras, es el valor 1 de los colores*/
+}
+
+.box3{
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+   border: 10px solid black;
+
+   background-color: hsl(50, 70%, 50%); /*Primero: el Color, Segundo: Saturacion, Tercero: Luminosidad. Tiene que ver con la RUEDA DE COLORES*/
+}
