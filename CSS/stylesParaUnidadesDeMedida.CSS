@@ -1,29 +1,68 @@
 
-div {
+#div1 {
     background-color: gainsboro;
     padding: 20px;
     font-family: sans-serif;
     border-left: 9px solid #999;
     width: 400px;
     font-size: 200px;
+    margin: 20px;
 }
 
-h1 {
+#titulo1 {
     margin-bottom: 100%; /*O 400px por ahi, depende de la caja PADRE, igual no se usan en margenes XD*/
     font-size: 20px; /*El porcentaje en FONT SIZE funciona de una manera rara, es el porcentaje de la caja contenedora que lo contiene (la caja "Font-Size"), en este ejmemplo 40px es lo mismo que poner 10%*/
 }
 
-span {
+#span1 {
     color: #999;
     font-size: 16px;  /*NI SE TE OCURRA PONERLE PORCENTAJE A LOS TEXTOS*/
     font-weight: 100;
 }
 
 
-p {
+#p1 {
     color: #555;
     background-color: darkkhaki;
     margin: 0;
     width: 200px; /*Depende del tamaño del contenedor, ESTA MAL ESTO IGUAL, CON TEXTOS NO!!*/
     font-size: 14px;
 }
+
+/******************************************/
+
+#div2 {
+    background-color: gainsboro;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 9px solid #999;
+    width: 400px;
+    font-size: 30px; /*LA CARACTERISTICA PADRE*/
+    margin: 20px;
+}
+
+#titulo2 {
+    margin-bottom: 100%; 
+    font-size: 20px;
+    background-color: aquamarine;
+    height: 50vh;
+    width: 50vw;
+    /*VIEWPORT*/
+    /*Con VH y VW,  son los tamaños que se ven en la pantalla. Si pones 100 en ambos, te va a aocupar TOOOODA LA PANTALLA (acordarse de sacar los margenes   
+}
+
+#span2 {
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+#p2 {
+    color: #555;
+    font-size: 1em; /*El Em da entender que es la caracterisitca del bloque PADRE, en este caso, es el Font Size del Div 2. 1EM = una medida, 2EM = esa medida x2; y asi.
+    Ahora bien, si no hay un elemento padre con el atributo, va a ir más arriba*/
+}
+
+
+/*Despues esta el Rem, es lo mismo que Em pero para el elemento RAIZ, en este caso la etiqueta HTML*/
