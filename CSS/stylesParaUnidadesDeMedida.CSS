@@ -1,0 +1,29 @@
+
+div {
+    background-color: gainsboro;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 9px solid #999;
+    width: 400px;
+    font-size: 200px;
+}
+
+h1 {
+    margin-bottom: 100%; /*O 400px por ahi, depende de la caja PADRE, igual no se usan en margenes XD*/
+    font-size: 20px; /*El porcentaje en FONT SIZE funciona de una manera rara, es el porcentaje de la caja contenedora que lo contiene (la caja "Font-Size"), en este ejmemplo 40px es lo mismo que poner 10%*/
+}
+
+span {
+    color: #999;
+    font-size: 16px;  /*NI SE TE OCURRA PONERLE PORCENTAJE A LOS TEXTOS*/
+    font-weight: 100;
+}
+
+
+p {
+    color: #555;
+    background-color: darkkhaki;
+    margin: 0;
+    width: 200px; /*Depende del tamaño del contenedor, ESTA MAL ESTO IGUAL, CON TEXTOS NO!!*/
+    font-size: 14px;
+}
