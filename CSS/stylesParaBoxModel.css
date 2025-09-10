@@ -4,6 +4,16 @@ div{
     background-color: aquamarine;
 }
 
-input{
+input {
     width: 70%; 
+}
+
+.cajas{
+   background-color: red;
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+   border: 10px solid black;
 }
