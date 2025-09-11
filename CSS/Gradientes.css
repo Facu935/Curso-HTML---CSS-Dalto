@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.gradiente{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    margin: auto;   /*Por alguna razon se centra con auto*/
+    margin-top: 10%;
+    
+    background-color: blue;
+}
