@@ -1,0 +1,15 @@
+body{
+    background-color: #14943f;
+}
+.box{
+    width: 600px;
+    height:600px;
+    margin: 20px;
+    background-image: url(https://www.initiumsoft.com/blog_initium/wp-content/uploads/2024/06/programacion-web.webp);
+
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position: 50%;
+    
+
+}
