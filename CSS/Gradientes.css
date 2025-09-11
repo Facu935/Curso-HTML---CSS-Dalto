@@ -1,14 +1,45 @@
 body{
-    background-color: black;
+    background-color: rgb(238, 20, 20);
     margin: 0;
 }
 
-.gradiente{
-    width: 300px;
-    height: 300px;
-    margin: 0;
-    margin: auto;   /*Por alguna razon se centra con auto*/
-    margin-top: 10%;
+.gradienteLineal{
+    width: 400px;
+    height: 400px;
+    margin: 0;   /*Por alguna razon se centra con auto*/
+    background: linear-gradient(black, transparent 80%, yellow 95%);
+    margin: auto;
+    margin-top: 5%;
+    border-top: 10px solid blue;
+    border-radius: 10%;
     
-    background-color: blue;
+}
+#titulo1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 5%;
+    
+}
+
+.gradienteRadial{
+    width: 400px;
+    height: 400px;
+    margin: auto;  
+    background: radial-gradient(black 30%, blue, black 80%);
+    margin-top: 5%;
+    
+    
+    
+}
+
+#titulo2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 5%;
+    padding-top: 45%;
+    
 }
