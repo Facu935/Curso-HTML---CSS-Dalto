@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #555555;
+}
+
+.contenedor{
+    background-color: chocolate;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+
+    /*  COLUMNAS Y FILAS, con definicion de TAMAÑOS  */
+
+    /*grid-template-columns: auto 20px 100px; /*Aca especificamos cantidad de COLUMNAS que queremos , pero hay otra manera*/
+    /*grid-template-columns: 2fr 4fr 1fr;      /*Fracciones__ Unidad relativa de medida, se comparan entre si*/
+    /*grid-template-columns: 25px repeat(2, 2fr) repeat(1 , 1fr) 50px;*/
+
+
+    /*grid-template-rows: 50px 100px 150px 200px;          Lo mismo pero para filas*/ 
+    /*grid-template-rows: 2fr 4fr 1fr;*/
+    /*grid-template-rows: repeat(3, 100px);*/
+    
+     /************************************************************************************************/
+    grid-template-columns: minmax(150px, 1fr) 1fr 1fr 1fr 1fr  
+    /* La primera columna, se se achica va a llegar a a tal medida, pero si se extiende, que se extienda a esa medida*/
+}   
+
+.contenedor div{
+    background-color: #1f43e4;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+/*************************/
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: minmax(175px, 1fr) 5fr;
+}
+
+.contenedor2 aside{
+    border: 1px solid red;
+    height: 100vh;
+    background-color: bisque;
+}
+.contenedor2 main{
+    border: 1px solid black;
+    height: 100vh;
+    background-color: bisque;
+}
